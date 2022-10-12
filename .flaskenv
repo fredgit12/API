@@ -1,0 +1,2 @@
+FLASK_APP = trystack
+FLASK_DEBUG = 1
