@@ -1,6 +1,6 @@
 from crypt import methods
 from trystack.trystack import apiv1 as api
-from project import ProjectResource
+from .project import ProjectResource
 api.add_resource(
     ProjectResource,
     "/projects",
